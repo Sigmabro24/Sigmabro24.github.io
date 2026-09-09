@@ -1,0 +1,41 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "image explain explain explain"
+    "explain2 explain2 explain2 image2"
+    "explain3 explain3 image3 image3"
+
+}
+#image1{
+    grid-area: image;
+    border: 1px solid black
+}
+#explain1{
+    grid-area:explain;
+    border: 1px solid black
+}
+#image2{
+    grid-area:image2;
+    border: 1px solid black
+}
+#explain2{
+    grid-area:explain2;
+    border: 1px solid black
+}
+#explain3{
+    grid-area: explain3;
+    border: 1px solid black
+}
+#image3{
+    grid-area: image3;
+    border: 1px solid black
+}
+header{
+    border: 1px solid purple;
+}
+footer{
+    border: 1px solid purple;
+}
+nav{
+    border: 1px solid orangered;
+}
