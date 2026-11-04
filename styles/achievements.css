@@ -6,6 +6,17 @@
     "explain3 explain3 image3 image3"
 
 }
+div{
+    background-color: indianred;
+}
+h1{
+    color: white;
+    background-color: darkred;
+}
+h2{
+    background-color: red;
+    color: white;
+}
 #image1{
     grid-area: image;
     border: 1px solid black
