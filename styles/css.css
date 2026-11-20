@@ -1,0 +1,11 @@
+table,tr,td,th{
+    border: 1px black solid
+}
+div{
+    border: 1px black solid;
+    width: 500px;
+    height:280px;
+    margin-top: 25px;
+    background-color: lightblue;
+    color:white;
+}
